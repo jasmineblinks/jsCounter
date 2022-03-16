@@ -1,0 +1,33 @@
+body {
+  overflow: hidden;
+}
+.container {
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#0ea808, #021715);
+  border: 2px solid #0ea808;
+}
+h1,
+#count-text {
+  text-align: center;
+  color: #021715;
+}
+h1 {
+  font-size: 2rem;
+}
+#count-text {
+  font-size: 8rem;
+}
+button {
+  padding: 10px;
+  background-color: #021715;
+  color: #0ea808;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  text-align: center;
+}
